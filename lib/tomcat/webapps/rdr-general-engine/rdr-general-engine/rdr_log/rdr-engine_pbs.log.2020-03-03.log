@@ -1,0 +1,198 @@
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:187]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:188]]  databaseType : mysql 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:189]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:190]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:191]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:192]]  useUnicode : yes 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:193]]  characterEncoding : UTF-8 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:194]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:195]]  user : root 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:196]]  password : root 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:197]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:198]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:199]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:200]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:201]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:202]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:209]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:211]] rangeRatio : 10.0 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:212]] strictValidationSCRDR : N 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:213]] debug_inputCase : N 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:214]] debug_reqeust : Y 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:215]] debug_inference : N 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRConfig.print:216]] debug_sql : N 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-03-03 15:29:08, [2020-03-03,15:29:08][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-03-03 15:29:13, [2020-03-03,15:29:13][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS_Temp.arff 
+[INFO], 2020-03-03 15:29:13, [2020-03-03,15:29:13][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 15:29:13, [2020-03-03,15:29:13][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 15:29:13, [2020-03-03,15:29:13][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 15:29:13, [2020-03-03,15:29:13][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 15:29:42, [2020-03-03,15:29:42][I][[CaseLoader.caseImport:579]] Total 1 case imported 
+[INFO], 2020-03-03 15:29:42, [2020-03-03,15:29:42][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 1 
+[INFO], 2020-03-03 15:29:42, [2020-03-03,15:29:42][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 12 attribute values are added. 
+[INFO], 2020-03-03 15:29:42, [2020-03-03,15:29:42][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (1): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(CONTINUOUS) :20.0	Default(Group_R)(CATEGORICAL) :Y	02_Size(CATEGORICAL) :Normocytic	03_Chromicity(CATEGORICAL) :Normochromic	04_Anisocytosis(CATEGORICAL) :Negative	05_Poikilocytosis(CATEGORICAL) :Negative	11_Dimorphism(CATEGORICAL) :Negative	12_Rouleux(CATEGORICAL) :Negative	18_Hemoglobin(CATEGORICAL) :Normal	19_RBC Agglutination(CATEGORICAL) :Negative	 
+[INFO], 2020-03-03 15:29:42, [2020-03-03,15:29:42][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-03-03 15:29:42, [2020-03-03,15:29:42][I][[CornerstoneCaseApp.main:42]] finished successfully 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:187]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:188]]  databaseType : mysql 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:189]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:190]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:191]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:192]]  useUnicode : yes 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:193]]  characterEncoding : UTF-8 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:194]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:195]]  user : root 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:196]]  password : root 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:197]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:198]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:199]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:200]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:201]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:202]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:209]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:211]] rangeRatio : 10.0 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:212]] strictValidationSCRDR : N 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:213]] debug_inputCase : N 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:214]] debug_reqeust : Y 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:215]] debug_inference : N 
+[INFO], 2020-03-03 15:29:49, [2020-03-03,15:29:49][I][[RDRConfig.print:216]] debug_sql : N 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-03-03 15:29:50, [2020-03-03,15:29:50][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-03-03 15:29:53, [2020-03-03,15:29:53][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS_Temp.arff 
+[INFO], 2020-03-03 15:29:53, [2020-03-03,15:29:53][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 15:29:53, [2020-03-03,15:29:53][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 15:29:53, [2020-03-03,15:29:53][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 15:29:53, [2020-03-03,15:29:53][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:187]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:188]]  databaseType : mysql 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:189]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:190]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:191]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:192]]  useUnicode : yes 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:193]]  characterEncoding : UTF-8 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:194]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:195]]  user : root 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:196]]  password : root 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:197]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:198]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:199]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:200]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:201]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:202]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:209]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:211]] rangeRatio : 10.0 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:212]] strictValidationSCRDR : N 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:213]] debug_inputCase : N 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:214]] debug_reqeust : Y 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:215]] debug_inference : N 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRConfig.print:216]] debug_sql : N 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-03-03 23:25:39, [2020-03-03,23:25:39][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-03-03 23:25:42, [2020-03-03,23:25:42][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS_Temp.arff 
+[INFO], 2020-03-03 23:25:42, [2020-03-03,23:25:42][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 23:25:42, [2020-03-03,23:25:42][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 23:25:42, [2020-03-03,23:25:42][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 23:25:42, [2020-03-03,23:25:42][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 23:25:42, [2020-03-03,23:25:42][I][[CaseLoader.caseImport:579]] Total 1 case imported 
+[INFO], 2020-03-03 23:25:42, [2020-03-03,23:25:42][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 1 
+[ERROR], 2020-03-03 23:25:42, [2020-03-03,23:25:42][E][[RDRDBManager.insertCornerstoneValue:1303]] java.sql.BatchUpdateException: Duplicate entry 'pbs-1-1' for key 'PRIMARY' 
+java.sql.BatchUpdateException: Duplicate entry 'pbs-1-1' for key 'PRIMARY'
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.execute(MariaDbServerPreparedStatement.java:376)
+	at rdr.db.RDRDBManager.insertCornerstoneValue(RDRDBManager.java:1292)
+	at rdr.apps.CornerstoneCaseApp.addCornerstoneCases(CornerstoneCaseApp.java:119)
+	at rdr.apps.CornerstoneCaseApp.main(CornerstoneCaseApp.java:39)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'pbs-1-1' for key 'PRIMARY'
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:119)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeQueryEpilog(MariaDbServerPreparedStatement.java:338)
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:293)
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.execute(MariaDbServerPreparedStatement.java:371)
+	... 3 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Duplicate entry 'pbs-1-1' for key 'PRIMARY'
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:478)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executePreparedQuery(AbstractQueryProtocol.java:591)
+	at org.mariadb.jdbc.MariaDbServerPreparedStatement.executeInternal(MariaDbServerPreparedStatement.java:281)
+	... 4 more
+[ERROR], 2020-03-03 23:25:42, [2020-03-03,23:25:42][E][[CornerstoneCaseApp.addCornerstoneCases:125]] cornerstone case value insert failed, tb_cornerstone_case 
+[ERROR], 2020-03-03 23:25:42, [2020-03-03,23:25:42][E][[CornerstoneCaseApp.main:44]] learning failed 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:187]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:188]]  databaseType : mysql 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:189]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:190]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:191]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:192]]  useUnicode : yes 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:193]]  characterEncoding : UTF-8 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:194]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:195]]  user : root 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:196]]  password : root 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:197]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:198]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:199]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:200]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:201]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:202]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:209]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:211]] rangeRatio : 10.0 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:212]] strictValidationSCRDR : N 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:213]] debug_inputCase : N 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:214]] debug_reqeust : Y 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:215]] debug_inference : N 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRConfig.print:216]] debug_sql : N 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-03-03 23:26:33, [2020-03-03,23:26:33][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS_Temp.arff 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 96, dup cnt : 0 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[CaseLoader.caseImport:579]] Total 1 case imported 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 1 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 12 attribute values are added. 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (1): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(CONTINUOUS) :20	Default(Group_R)(CATEGORICAL) :Y	02_Size(CATEGORICAL) :Normocytic	03_Chromicity(CATEGORICAL) :Normochromic	04_Anisocytosis(CATEGORICAL) :Negative	05_Poikilocytosis(CATEGORICAL) :Negative	11_Dimorphism(CATEGORICAL) :Negative	12_Rouleux(CATEGORICAL) :Negative	18_Hemoglobin(CATEGORICAL) :Normal	19_RBC Agglutination(CATEGORICAL) :Negative	 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-03-03 23:26:36, [2020-03-03,23:26:36][I][[CornerstoneCaseApp.main:42]] finished successfully 

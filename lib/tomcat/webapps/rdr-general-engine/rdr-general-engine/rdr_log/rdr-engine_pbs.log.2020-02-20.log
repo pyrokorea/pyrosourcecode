@@ -1,0 +1,901 @@
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:185]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:192]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 14:28:27, [2020-02-20,14:28:27][I][[RDRInterface.initializeDomain:166]] domain table is empty 
+[INFO], 2020-02-20 14:28:57, [2020-02-20,14:28:57][I][[DomainSetupApp.setupDomainJSON:130]] JSON File : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS.json 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRInterface.initializeDomain:166]] domain table is empty 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRResponse.printStatusMessage:97]] deleteDomain : status[true] msg[] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertDomainDetails:583]] @insert domainDetail : name[pbs] desc[특수면역학 전기영동검사] reasoner[SCRDR] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertRuleStructure:1177]] @insert ruleStructure : domain[pbs] ruleId[0] parentId[-1] conclusionId[0] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RuleLoader.insertRule:48]] Rule Root THEN  added. 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertRuleConclusion:1117]] @insert ruleConclusion : domain[pbs] id[0] valueTypeId[2] name[] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRInterface.addDomain:229]] add domain finished successfully 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 특수면역학 전기영동검사, SCRDR 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 0, dup cnt : 0 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRInterface.addDomain:234]] initialize domain finished successfully 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 특수면역학 전기영동검사, SCRDR 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 0, dup cnt : 0 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRResponse.printStatusMessage:97]] addDomain : status[true] msg[] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[1] valueTypeId[2] attrName[LMB_CODE] attrDesc[LMB코드] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[2] valueTypeId[2] attrName[TEST_CODE] attrDesc[검사코드] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[3] valueTypeId[2] attrName[SEX] attrDesc[성별] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[4] valueTypeId[2] attrName[AGE_YEAR] attrDesc[연령] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[5] valueTypeId[2] attrName[AGE_MONTH] attrDesc[월령] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[6] valueTypeId[2] attrName[AGE_DAY] attrDesc[일령] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[7] valueTypeId[2] attrName[HOSPITAL_CODE] attrDesc[병원코드] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[8] valueTypeId[1] attrName[Default(Group_R)] attrDesc[소견그룹 R 결과 기본값 여부] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[8] categoricalValue : [Y][N] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[9] valueTypeId[1] attrName[Default(Group_W)] attrDesc[소견그룹 W 결과 기본값 여부] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[9] categoricalValue : [Y][N] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[10] valueTypeId[1] attrName[Default(Group_P)] attrDesc[소견그룹 P 결과 기본값 여부] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[10] categoricalValue : [Y][N] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[11] valueTypeId[1] attrName[00_PBS] attrDesc[G] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[11] categoricalValue : [**] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[12] valueTypeId[0] attrName[00_PBS_NUM] attrDesc[G] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[13] valueTypeId[1] attrName[01_RBC] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[13] categoricalValue : [**] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[14] valueTypeId[0] attrName[01_RBC_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[15] valueTypeId[1] attrName[02_Size] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[15] categoricalValue : [Normocytic][Microcytic][Macrocytic][Micro/Normocytic][Normo/Macrocytic] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[16] valueTypeId[0] attrName[02_Size_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[17] valueTypeId[1] attrName[03_Chromicity] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[17] categoricalValue : [Normochromic][Hypochromic][Hypo/Normochromic] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[18] valueTypeId[0] attrName[03_Chromicity_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[19] valueTypeId[1] attrName[04_Anisocytosis] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[19] categoricalValue : [Negative][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[20] valueTypeId[0] attrName[04_Anisocytosis_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[21] valueTypeId[1] attrName[05_Poikilocytosis] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[21] categoricalValue : [Negative][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[22] valueTypeId[0] attrName[05_Poikilocytosis_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[23] valueTypeId[1] attrName[06_Elliptocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[23] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[24] valueTypeId[0] attrName[06_Elliptocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[25] valueTypeId[1] attrName[07_burr cell] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[25] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[26] valueTypeId[0] attrName[07_burr cell_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[27] valueTypeId[1] attrName[08_target cell] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[27] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[28] valueTypeId[0] attrName[08_target cell_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[29] valueTypeId[1] attrName[09_spherocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[29] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[30] valueTypeId[0] attrName[09_spherocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[31] valueTypeId[1] attrName[10_schistocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[31] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[32] valueTypeId[0] attrName[10_schistocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[33] valueTypeId[1] attrName[11_Dimorphism] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[33] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[34] valueTypeId[0] attrName[11_Dimorphism_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[35] valueTypeId[1] attrName[12_Rouleux] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[35] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[36] valueTypeId[0] attrName[12_Rouleux_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[37] valueTypeId[1] attrName[13_Polychromasia] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[37] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[38] valueTypeId[0] attrName[13_Polychromasia_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:34, [2020-02-20,14:29:34][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[39] valueTypeId[1] attrName[14_Basophilic stippling] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[39] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[40] valueTypeId[0] attrName[14_Basophilic stippling_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[41] valueTypeId[1] attrName[15_Howell-Jolly body] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[41] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[42] valueTypeId[0] attrName[15_Howell-Jolly body_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[43] valueTypeId[1] attrName[16_Tear drop cell] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[43] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[44] valueTypeId[0] attrName[16_Tear drop cell_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[45] valueTypeId[1] attrName[17_Nucleated RBC] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[45] categoricalValue : [0] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[46] valueTypeId[0] attrName[17_Nucleated RBC_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[47] valueTypeId[1] attrName[20_WBC] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[47] categoricalValue : [**] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[48] valueTypeId[0] attrName[20_WBC_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[49] valueTypeId[1] attrName[21_Number] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[49] categoricalValue : [Normal][Increased(+)][Increased(++)][Increased(+++)][Decreased(+)][Decreased(++)][Decreased(+++)] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[50] valueTypeId[0] attrName[21_Number_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[51] valueTypeId[1] attrName[22_Maturation] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[51] categoricalValue : [Normal][Left shift][Abnormal] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[52] valueTypeId[0] attrName[22_Maturation_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[53] valueTypeId[1] attrName[23_Neutro-toxic changes] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[53] categoricalValue : [Negative][Positive(+)][Positive(++)][Positive(+++)] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[54] valueTypeId[0] attrName[23_Neutro-toxic changes_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[55] valueTypeId[1] attrName[24_Neutro-Dohle body] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[55] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[56] valueTypeId[0] attrName[24_Neutro-Dohle body_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[57] valueTypeId[1] attrName[25_Neutro-segmentation] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[57] categoricalValue : [Normal][Hypo][Hyper] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[58] valueTypeId[0] attrName[25_Neutro-segmentation_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[59] valueTypeId[1] attrName[28_Platelet] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[59] categoricalValue : [**] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[60] valueTypeId[0] attrName[28_Platelet_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[61] valueTypeId[1] attrName[29_Number] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[61] categoricalValue : [Normal][Increased(+)][Increased(++)][Increased(+++)][Decreased(+)][Decreased(++)][Decreased(+++)] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[62] valueTypeId[0] attrName[29_Number_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[63] valueTypeId[1] attrName[30_Size] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[63] categoricalValue : [Normal][Occ. Large][Occ. Giant] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[64] valueTypeId[0] attrName[30_Size_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[65] valueTypeId[1] attrName[31_Clumping] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[65] categoricalValue : [Negative][Occasional][Some][Marked] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[66] valueTypeId[0] attrName[31_Clumping_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[67] valueTypeId[1] attrName[18_Hemoglobin] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[67] categoricalValue : [Normal][Anemia][Polycythemia] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[68] valueTypeId[0] attrName[18_Hemoglobin_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[69] valueTypeId[1] attrName[19_RBC Agglutination] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[69] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[70] valueTypeId[0] attrName[19_RBC Agglutination_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[71] valueTypeId[1] attrName[41_Stomatocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[71] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[72] valueTypeId[0] attrName[41_Stomatocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[73] valueTypeId[1] attrName[42_Acanthocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[73] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[74] valueTypeId[0] attrName[42_Acanthocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[75] valueTypeId[1] attrName[43_Malaria] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[75] categoricalValue : [Negative][Malaria][Filaria] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[76] valueTypeId[0] attrName[43_Malaria_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[77] valueTypeId[1] attrName[44_RBC others] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[77] categoricalValue : [Negative][Pappenheimer body][Heinz body] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[78] valueTypeId[0] attrName[44_RBC others_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[79] valueTypeId[1] attrName[51_Neutrophil] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[79] categoricalValue : [Normal][Neutrophilia][Relative neutrophilia][Neutropenia] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[80] valueTypeId[0] attrName[51_Neutrophil_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[81] valueTypeId[1] attrName[53_Lymphocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[81] categoricalValue : [Normal][Lymphocytosis][Relative lymphocytosis] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[82] valueTypeId[0] attrName[53_Lymphocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[83] valueTypeId[1] attrName[55_Monocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[83] categoricalValue : [Normal][Monocytosis][Relative monocytosis] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[84] valueTypeId[0] attrName[55_Monocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[85] valueTypeId[1] attrName[56_Eosinophil] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[85] categoricalValue : [Normal][Eosinophilia][Relative eosinophilia] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[86] valueTypeId[0] attrName[56_Eosinophil_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[87] valueTypeId[1] attrName[57_Basophil] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[87] categoricalValue : [Normal][Basophilia] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[88] valueTypeId[0] attrName[57_Basophil_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[89] valueTypeId[1] attrName[61_Atypical lymphocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[89] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[90] valueTypeId[0] attrName[61_Atypical lymphocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[91] valueTypeId[1] attrName[62_Abnormal lymphocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[91] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[92] valueTypeId[0] attrName[62_Abnormal lymphocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[93] valueTypeId[1] attrName[63_Blast] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[93] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[94] valueTypeId[0] attrName[63_Blast_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[95] valueTypeId[1] attrName[64_Abnormal cells] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[95] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[96] valueTypeId[0] attrName[64_Abnormal cells_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[97] valueTypeId[1] attrName[65_WBC Others] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[97] categoricalValue : [Negative] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[98] valueTypeId[0] attrName[65_WBC Others_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[99] valueTypeId[1] attrName[71_PLT Others] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[99] categoricalValue : [Negative][hypopigentation] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[100] valueTypeId[0] attrName[71_PLT Others_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[101] valueTypeId[1] attrName[91_Cell degeneration] attrDesc[G] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[101] categoricalValue : [Negative][ weak][Positive] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[102] valueTypeId[0] attrName[91_Cell degeneration_NUM] attrDesc[G] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[103] valueTypeId[1] attrName[92_Partial clot] attrDesc[G] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[103] categoricalValue : [Negative][ weak][Positive] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[104] valueTypeId[0] attrName[92_Partial clot_NUM] attrDesc[G] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRInterface.reloadDomain:248]] reloadDomain for [pbs] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 특수면역학 전기영동검사, SCRDR 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[RDRResponse.printStatusMessage:97]] setCaseStructureByJSON : status[true] msg[] 
+[INFO], 2020-02-20 14:29:35, [2020-02-20,14:29:35][I][[DomainSetupApp.main:41]] finished successfully 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:185]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:192]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 14:34:55, [2020-02-20,14:34:55][I][[RDRInterface.initializeDomain:166]] domain table is empty 
+[INFO], 2020-02-20 14:35:01, [2020-02-20,14:35:01][I][[DomainSetupApp.setupDomainJSON:132]] JSON File : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS.json 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRInterface.initializeDomain:166]] domain table is empty 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRResponse.printStatusMessage:97]] deleteDomain : status[true] msg[] 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRDBManager.insertDomainDetails:583]] @insert domainDetail : name[pbs] desc[말초혈액 도말검사(Peripheral Blood Smear)] reasoner[MCRDR] 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRDBManager.insertRuleStructure:1177]] @insert ruleStructure : domain[pbs] ruleId[0] parentId[-1] conclusionId[0] 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RuleLoader.insertRule:48]] Rule Root THEN  added. 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRDBManager.insertRuleConclusion:1117]] @insert ruleConclusion : domain[pbs] id[0] valueTypeId[2] name[] 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRInterface.addDomain:229]] add domain finished successfully 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 14:35:02, [2020-02-20,14:35:02][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 0, dup cnt : 0 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRInterface.addDomain:234]] initialize domain finished successfully 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 0, dup cnt : 0 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRResponse.printStatusMessage:97]] addDomain : status[true] msg[] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[1] valueTypeId[2] attrName[LMB_CODE] attrDesc[LMB코드] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[2] valueTypeId[2] attrName[TEST_CODE] attrDesc[검사코드] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[3] valueTypeId[2] attrName[SEX] attrDesc[성별] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[4] valueTypeId[2] attrName[AGE_YEAR] attrDesc[연령] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[5] valueTypeId[2] attrName[AGE_MONTH] attrDesc[월령] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[6] valueTypeId[2] attrName[AGE_DAY] attrDesc[일령] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[7] valueTypeId[2] attrName[HOSPITAL_CODE] attrDesc[병원코드] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[8] valueTypeId[1] attrName[Default(Group_R)] attrDesc[소견그룹 R 결과 기본값 여부] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[8] categoricalValue : [Y][N] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[9] valueTypeId[1] attrName[Default(Group_W)] attrDesc[소견그룹 W 결과 기본값 여부] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[9] categoricalValue : [Y][N] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[10] valueTypeId[1] attrName[Default(Group_P)] attrDesc[소견그룹 P 결과 기본값 여부] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[10] categoricalValue : [Y][N] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[11] valueTypeId[1] attrName[00_PBS] attrDesc[G] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[11] categoricalValue : [**] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[12] valueTypeId[0] attrName[00_PBS_NUM] attrDesc[G] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[13] valueTypeId[1] attrName[01_RBC] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[13] categoricalValue : [**] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[14] valueTypeId[0] attrName[01_RBC_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[15] valueTypeId[1] attrName[02_Size] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[15] categoricalValue : [Normocytic][Microcytic][Macrocytic][Micro/Normocytic][Normo/Macrocytic] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[16] valueTypeId[0] attrName[02_Size_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[17] valueTypeId[1] attrName[03_Chromicity] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[17] categoricalValue : [Normochromic][Hypochromic][Hypo/Normochromic] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[18] valueTypeId[0] attrName[03_Chromicity_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[19] valueTypeId[1] attrName[04_Anisocytosis] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[19] categoricalValue : [Negative][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[20] valueTypeId[0] attrName[04_Anisocytosis_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[21] valueTypeId[1] attrName[05_Poikilocytosis] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[21] categoricalValue : [Negative][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[22] valueTypeId[0] attrName[05_Poikilocytosis_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[23] valueTypeId[1] attrName[06_Elliptocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[23] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[24] valueTypeId[0] attrName[06_Elliptocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[25] valueTypeId[1] attrName[07_burr cell] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[25] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[26] valueTypeId[0] attrName[07_burr cell_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[27] valueTypeId[1] attrName[08_target cell] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[27] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[28] valueTypeId[0] attrName[08_target cell_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[29] valueTypeId[1] attrName[09_spherocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[29] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[30] valueTypeId[0] attrName[09_spherocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[31] valueTypeId[1] attrName[10_schistocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[31] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[32] valueTypeId[0] attrName[10_schistocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[33] valueTypeId[1] attrName[11_Dimorphism] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[33] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[34] valueTypeId[0] attrName[11_Dimorphism_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[35] valueTypeId[1] attrName[12_Rouleux] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[35] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[36] valueTypeId[0] attrName[12_Rouleux_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[37] valueTypeId[1] attrName[13_Polychromasia] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[37] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[38] valueTypeId[0] attrName[13_Polychromasia_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[39] valueTypeId[1] attrName[14_Basophilic stippling] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[39] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[40] valueTypeId[0] attrName[14_Basophilic stippling_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[41] valueTypeId[1] attrName[15_Howell-Jolly body] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[41] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[42] valueTypeId[0] attrName[15_Howell-Jolly body_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[43] valueTypeId[1] attrName[16_Tear drop cell] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[43] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[44] valueTypeId[0] attrName[16_Tear drop cell_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[45] valueTypeId[1] attrName[17_Nucleated RBC] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[45] categoricalValue : [0] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[46] valueTypeId[0] attrName[17_Nucleated RBC_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[47] valueTypeId[1] attrName[20_WBC] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[47] categoricalValue : [**] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[48] valueTypeId[0] attrName[20_WBC_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[49] valueTypeId[1] attrName[21_Number] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[49] categoricalValue : [Normal][Increased(+)][Increased(++)][Increased(+++)][Decreased(+)][Decreased(++)][Decreased(+++)] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[50] valueTypeId[0] attrName[21_Number_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[51] valueTypeId[1] attrName[22_Maturation] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[51] categoricalValue : [Normal][Left shift][Abnormal] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[52] valueTypeId[0] attrName[22_Maturation_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[53] valueTypeId[1] attrName[23_Neutro-toxic changes] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[53] categoricalValue : [Negative][Positive(+)][Positive(++)][Positive(+++)] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[54] valueTypeId[0] attrName[23_Neutro-toxic changes_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[55] valueTypeId[1] attrName[24_Neutro-Dohle body] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[55] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[56] valueTypeId[0] attrName[24_Neutro-Dohle body_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[57] valueTypeId[1] attrName[25_Neutro-segmentation] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[57] categoricalValue : [Normal][Hypo][Hyper] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[58] valueTypeId[0] attrName[25_Neutro-segmentation_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[59] valueTypeId[1] attrName[28_Platelet] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[59] categoricalValue : [**] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[60] valueTypeId[0] attrName[28_Platelet_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[61] valueTypeId[1] attrName[29_Number] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[61] categoricalValue : [Normal][Increased(+)][Increased(++)][Increased(+++)][Decreased(+)][Decreased(++)][Decreased(+++)] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[62] valueTypeId[0] attrName[29_Number_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[63] valueTypeId[1] attrName[30_Size] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[63] categoricalValue : [Normal][Occ. Large][Occ. Giant] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[64] valueTypeId[0] attrName[30_Size_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[65] valueTypeId[1] attrName[31_Clumping] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[65] categoricalValue : [Negative][Occasional][Some][Marked] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[66] valueTypeId[0] attrName[31_Clumping_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[67] valueTypeId[1] attrName[18_Hemoglobin] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[67] categoricalValue : [Normal][Anemia][Polycythemia] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[68] valueTypeId[0] attrName[18_Hemoglobin_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[69] valueTypeId[1] attrName[19_RBC Agglutination] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[69] categoricalValue : [Negative][Positive] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[70] valueTypeId[0] attrName[19_RBC Agglutination_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[71] valueTypeId[1] attrName[41_Stomatocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[71] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[72] valueTypeId[0] attrName[41_Stomatocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[73] valueTypeId[1] attrName[42_Acanthocyte] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[73] categoricalValue : [Negative][Positive][1+][2+][3+] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[74] valueTypeId[0] attrName[42_Acanthocyte_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[75] valueTypeId[1] attrName[43_Malaria] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[75] categoricalValue : [Negative][Malaria][Filaria] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[76] valueTypeId[0] attrName[43_Malaria_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[77] valueTypeId[1] attrName[44_RBC others] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[77] categoricalValue : [Negative][Pappenheimer body][Heinz body] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[78] valueTypeId[0] attrName[44_RBC others_NUM] attrDesc[R] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[79] valueTypeId[1] attrName[51_Neutrophil] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[79] categoricalValue : [Normal][Neutrophilia][Relative neutrophilia][Neutropenia] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[80] valueTypeId[0] attrName[51_Neutrophil_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[81] valueTypeId[1] attrName[53_Lymphocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[81] categoricalValue : [Normal][Lymphocytosis][Relative lymphocytosis] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[82] valueTypeId[0] attrName[53_Lymphocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[83] valueTypeId[1] attrName[55_Monocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[83] categoricalValue : [Normal][Monocytosis][Relative monocytosis] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[84] valueTypeId[0] attrName[55_Monocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[85] valueTypeId[1] attrName[56_Eosinophil] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[85] categoricalValue : [Normal][Eosinophilia][Relative eosinophilia] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[86] valueTypeId[0] attrName[56_Eosinophil_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[87] valueTypeId[1] attrName[57_Basophil] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[87] categoricalValue : [Normal][Basophilia] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[88] valueTypeId[0] attrName[57_Basophil_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[89] valueTypeId[1] attrName[61_Atypical lymphocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[89] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[90] valueTypeId[0] attrName[61_Atypical lymphocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[91] valueTypeId[1] attrName[62_Abnormal lymphocyte] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[91] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[92] valueTypeId[0] attrName[62_Abnormal lymphocyte_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[93] valueTypeId[1] attrName[63_Blast] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[93] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[94] valueTypeId[0] attrName[63_Blast_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[95] valueTypeId[1] attrName[64_Abnormal cells] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[95] categoricalValue : [Negative][a few][some][many] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[96] valueTypeId[0] attrName[64_Abnormal cells_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[97] valueTypeId[1] attrName[65_WBC Others] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[97] categoricalValue : [Negative] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[98] valueTypeId[0] attrName[65_WBC Others_NUM] attrDesc[W] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[99] valueTypeId[1] attrName[71_PLT Others] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[99] categoricalValue : [Negative][hypopigentation] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[100] valueTypeId[0] attrName[71_PLT Others_NUM] attrDesc[P] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[101] valueTypeId[1] attrName[91_Cell degeneration] attrDesc[G] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[101] categoricalValue : [Negative][ weak][Positive] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[102] valueTypeId[0] attrName[91_Cell degeneration_NUM] attrDesc[G] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[103] valueTypeId[1] attrName[92_Partial clot] attrDesc[G] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertCategoricalValue:1006]] @insert categoricalValue : domain[pbs] attrId[103] categoricalValue : [Negative][ weak][Positive] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.insertAttribute:906]] @insert attribute : domain[pbs] id[104] valueTypeId[0] attrName[92_Partial clot_NUM] attrDesc[G] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRInterface.reloadDomain:248]] reloadDomain for [pbs] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[RDRResponse.printStatusMessage:97]] setCaseStructureByJSON : status[true] msg[] 
+[INFO], 2020-02-20 14:35:03, [2020-02-20,14:35:03][I][[DomainSetupApp.main:42]] finished successfully 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:185]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:192]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 16:37:01, [2020-02-20,16:37:01][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 16:37:14, [2020-02-20,16:37:14][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS.arff 
+[INFO], 2020-02-20 16:37:14, [2020-02-20,16:37:14][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 16:37:14, [2020-02-20,16:37:14][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[ERROR], 2020-02-20 16:37:14, [2020-02-20,16:37:14][E][[CornerstoneCaseApp.checkArffCaseStructure:158]] java.lang.NullPointerException : null 
+java.lang.NullPointerException
+	at rdr.cases.CaseSynchroniser.compare(CaseSynchroniser.java:95)
+	at rdr.apps.CornerstoneCaseApp.checkArffCaseStructure(CornerstoneCaseApp.java:152)
+	at rdr.apps.CornerstoneCaseApp.addCornerstoneCases(CornerstoneCaseApp.java:89)
+	at rdr.apps.CornerstoneCaseApp.main(CornerstoneCaseApp.java:39)
+[ERROR], 2020-02-20 16:37:14, [2020-02-20,16:37:14][E][[CornerstoneCaseApp.addCornerstoneCases:91]] ARFF and DB CaseStructure is not same 
+[ERROR], 2020-02-20 16:37:14, [2020-02-20,16:37:14][E][[CornerstoneCaseApp.main:44]] learning failed 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:185]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:192]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 17:15:31, [2020-02-20,17:15:31][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:15:32, [2020-02-20,17:15:32][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 17:15:32, [2020-02-20,17:15:32][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 17:15:32, [2020-02-20,17:15:32][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 17:15:32, [2020-02-20,17:15:32][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 17:15:38, [2020-02-20,17:15:38][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS.arff 
+[INFO], 2020-02-20 17:15:38, [2020-02-20,17:15:38][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:15:38, [2020-02-20,17:15:38][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[ERROR], 2020-02-20 17:15:38, [2020-02-20,17:15:38][E][[CornerstoneCaseApp.checkArffCaseStructure:158]] java.lang.NullPointerException : null 
+java.lang.NullPointerException
+	at rdr.cases.CaseSynchroniser.compare(CaseSynchroniser.java:95)
+	at rdr.apps.CornerstoneCaseApp.checkArffCaseStructure(CornerstoneCaseApp.java:152)
+	at rdr.apps.CornerstoneCaseApp.addCornerstoneCases(CornerstoneCaseApp.java:89)
+	at rdr.apps.CornerstoneCaseApp.main(CornerstoneCaseApp.java:39)
+[ERROR], 2020-02-20 17:15:38, [2020-02-20,17:15:38][E][[CornerstoneCaseApp.addCornerstoneCases:91]] ARFF and DB CaseStructure is not same 
+[ERROR], 2020-02-20 17:15:38, [2020-02-20,17:15:38][E][[CornerstoneCaseApp.main:44]] learning failed 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:185]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:192]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2020-02-20 17:20:06, [2020-02-20,17:20:06][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 17:20:07, [2020-02-20,17:20:07][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 17:20:11, [2020-02-20,17:20:11][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS.arff 
+[INFO], 2020-02-20 17:20:11, [2020-02-20,17:20:11][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:20:11, [2020-02-20,17:20:11][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[ERROR], 2020-02-20 17:20:11, [2020-02-20,17:20:11][E][[CornerstoneCaseApp.checkArffCaseStructure:158]] java.lang.NullPointerException : null 
+java.lang.NullPointerException
+	at rdr.cases.CaseSynchroniser.compare(CaseSynchroniser.java:95)
+	at rdr.apps.CornerstoneCaseApp.checkArffCaseStructure(CornerstoneCaseApp.java:152)
+	at rdr.apps.CornerstoneCaseApp.addCornerstoneCases(CornerstoneCaseApp.java:89)
+	at rdr.apps.CornerstoneCaseApp.main(CornerstoneCaseApp.java:39)
+[ERROR], 2020-02-20 17:20:11, [2020-02-20,17:20:11][E][[CornerstoneCaseApp.addCornerstoneCases:91]] ARFF and DB CaseStructure is not same 
+[ERROR], 2020-02-20 17:20:11, [2020-02-20,17:20:11][E][[CornerstoneCaseApp.main:44]] learning failed 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:185]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:192]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 17:22:56, [2020-02-20,17:22:56][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 17:23:00, [2020-02-20,17:23:00][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS.arff 
+[INFO], 2020-02-20 17:23:00, [2020-02-20,17:23:00][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:23:00, [2020-02-20,17:23:00][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[ERROR], 2020-02-20 17:23:00, [2020-02-20,17:23:00][E][[CornerstoneCaseApp.checkArffCaseStructure:158]] java.lang.NullPointerException : null 
+java.lang.NullPointerException
+	at rdr.cases.CaseSynchroniser.compare(CaseSynchroniser.java:95)
+	at rdr.apps.CornerstoneCaseApp.checkArffCaseStructure(CornerstoneCaseApp.java:152)
+	at rdr.apps.CornerstoneCaseApp.addCornerstoneCases(CornerstoneCaseApp.java:89)
+	at rdr.apps.CornerstoneCaseApp.main(CornerstoneCaseApp.java:39)
+[ERROR], 2020-02-20 17:23:00, [2020-02-20,17:23:00][E][[CornerstoneCaseApp.addCornerstoneCases:91]] ARFF and DB CaseStructure is not same 
+[ERROR], 2020-02-20 17:23:00, [2020-02-20,17:23:00][E][[CornerstoneCaseApp.main:44]] learning failed 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:185]] CfgFile : rdr-pbs.cfg 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:192]]  databaseName : [rdrkb_pbs, smf_peripheralbloodsmear] 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\ 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\log\ 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_ep.arff 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-pbs\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_pbs?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : pbs 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRDBManager.getDomainDetails:1363]] domain : pbs, 말초혈액 도말검사(Peripheral Blood Smear), MCRDR 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRDBManager.getConditionHashMap:1823]] Rule conditions loading... 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRDBManager.getConclusionSet:1873]] Rule conclusions loading... 
+[INFO], 2020-02-20 17:36:42, [2020-02-20,17:36:42][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[INFO], 2020-02-20 17:36:45, [2020-02-20,17:36:45][I][[CornerstoneCaseApp.addCornerstoneCases:76]] ARFF : C:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\rdr-pbs\domain\PBS.arff 
+[INFO], 2020-02-20 17:36:45, [2020-02-20,17:36:45][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 104, dup cnt : 0 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CaseLoader.caseImport:581]] Total 59 cases imported 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 1 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (1): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :20	Default(Group_R)(CATEGORICAL) :Y	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 2 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (2): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :18	Default(Group_R)(CATEGORICAL) :Y	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 3 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (3): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	HOSPITAL_CODE(TEXT) :30894	Default(Group_R)(CATEGORICAL) :Y	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 4 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (4): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	02_Size(CATEGORICAL) :Microcytic	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 5 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (5): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	HOSPITAL_CODE(TEXT) :30894	02_Size(CATEGORICAL) :Microcytic	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 6 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (6): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	02_Size(CATEGORICAL) :Macrocytic	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 7 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (7): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	HOSPITAL_CODE(TEXT) :30894	02_Size(CATEGORICAL) :Macrocytic	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 8 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (8): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	12_Rouleux(CATEGORICAL) :Positive	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 9 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (9): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	19_RBC Agglutination(CATEGORICAL) :Positive	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 10 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (10): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 11 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (11): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	04_Anisocytosis(CATEGORICAL) :1+	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 12 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (12): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	05_Poikilocytosis(CATEGORICAL) :1+	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 13 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 5 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (13): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	02_Size(CATEGORICAL) :Microcytic	03_Chromicity(CATEGORICAL) :Hypochromic	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 14 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 6 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (14): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	02_Size(CATEGORICAL) :Microcytic	03_Chromicity(CATEGORICAL) :Hypochromic	04_Anisocytosis(CATEGORICAL) :1+	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 15 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 7 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (15): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	02_Size(CATEGORICAL) :Microcytic	03_Chromicity(CATEGORICAL) :Hypochromic	04_Anisocytosis(CATEGORICAL) :1+	05_Poikilocytosis(CATEGORICAL) :1+	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 16 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 8 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (16): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	02_Size(CATEGORICAL) :Micro/Normocytic	03_Chromicity(CATEGORICAL) :Hypo/Normochromic	04_Anisocytosis(CATEGORICAL) :1+	05_Poikilocytosis(CATEGORICAL) :1+	11_Dimorphism(CATEGORICAL) :Positive	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 17 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (17): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	02_Size(CATEGORICAL) :Macrocytic	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 18 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (18): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	Default(Group_W)(CATEGORICAL) :Y	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 19 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (19): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	HOSPITAL_CODE(TEXT) :30894	Default(Group_W)(CATEGORICAL) :Y	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 20 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (20): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :20	51_Neutrophil(CATEGORICAL) :Relative neutrophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 21 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (21): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :20	56_Eosinophil(CATEGORICAL) :Eosinophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 22 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (22): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :12	56_Eosinophil(CATEGORICAL) :Eosinophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 23 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (23): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :20	56_Eosinophil(CATEGORICAL) :Relative eosinophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 24 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (24): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :12	56_Eosinophil(CATEGORICAL) :Relative eosinophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 25 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (25): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	61_Atypical lymphocyte(CATEGORICAL) :a few	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 26 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (26): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	61_Atypical lymphocyte(CATEGORICAL) :some	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 27 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (27): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	61_Atypical lymphocyte(CATEGORICAL) :many	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 28 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (28): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	61_Atypical lymphocyte_NUM(CONTINUOUS) :10.0	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 29 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (29): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	53_Lymphocyte(CATEGORICAL) :Lymphocytosis	61_Atypical lymphocyte_NUM(CONTINUOUS) :10.0	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 30 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (30): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Increased(+)	51_Neutrophil(CATEGORICAL) :Neutrophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 31 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (31): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Increased(++)	51_Neutrophil(CATEGORICAL) :Neutrophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 32 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (32): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Increased(+++)	51_Neutrophil(CATEGORICAL) :Neutrophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 33 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 5 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (33): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Increased(+++)	22_Maturation(CATEGORICAL) :Left shift	51_Neutrophil(CATEGORICAL) :Neutrophilia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 34 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (34): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Increased(+++)	63_Blast(CATEGORICAL) :many	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 35 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (35): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Decreased(+)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 36 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (36): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Decreased(++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 37 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (37): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Decreased(+++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 38 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (38): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Decreased(+)	51_Neutrophil(CATEGORICAL) :Neutropenia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 39 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (39): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Decreased(++)	51_Neutrophil(CATEGORICAL) :Neutropenia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 40 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (40): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Decreased(+++)	51_Neutrophil(CATEGORICAL) :Neutropenia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 41 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (41): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	Default(Group_P)(CATEGORICAL) :Y	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 42 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (42): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	HOSPITAL_CODE(TEXT) :30894	Default(Group_P)(CATEGORICAL) :Y	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 43 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (43): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :20	29_Number(CATEGORICAL) :Increased(+)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 44 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (44): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :20	29_Number(CATEGORICAL) :Increased(++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 45 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (45): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :20	29_Number(CATEGORICAL) :Increased(+++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 46 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (46): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :18	29_Number(CATEGORICAL) :Increased(+)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 47 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (47): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :18	29_Number(CATEGORICAL) :Increased(++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 48 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (48): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	AGE_YEAR(TEXT) :18	29_Number(CATEGORICAL) :Increased(+++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 49 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (49): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	29_Number(CATEGORICAL) :Decreased(+)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 50 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (50): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	29_Number(CATEGORICAL) :Decreased(++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 51 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (51): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	29_Number(CATEGORICAL) :Decreased(+++)	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 52 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (52): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	29_Number(CATEGORICAL) :Increased(+)	31_Clumping(CATEGORICAL) :Occasional	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 53 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 4 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (53): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	29_Number(CATEGORICAL) :Increased(++)	31_Clumping(CATEGORICAL) :Occasional	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 54 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (54): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	63_Blast(CATEGORICAL) :many	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 55 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 5 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (55): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	21_Number(CATEGORICAL) :Decreased(+)	29_Number(CATEGORICAL) :Decreased(+)	18_Hemoglobin(CATEGORICAL) :Anemia	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 56 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (56): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	91_Cell degeneration(CATEGORICAL) :weak	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 57 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (57): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	91_Cell degeneration(CATEGORICAL) :Positive	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 58 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (58): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	92_Partial clot(CATEGORICAL) :weak	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:112]] case id : 59 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1296]] Total 3 attribute values are added. 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[RDRDBManager.insertCornerstoneValue:1297]] @insert cornerstoneCase : Case (59): LMB_CODE(TEXT) :0000	TEST_CODE(TEXT) :11052	92_Partial clot(CATEGORICAL) :Positive	 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.addCornerstoneCases:121]] cornerstone case value inserted, tb_cornerstone_case 
+[INFO], 2020-02-20 17:36:46, [2020-02-20,17:36:46][I][[CornerstoneCaseApp.main:42]] finished successfully 

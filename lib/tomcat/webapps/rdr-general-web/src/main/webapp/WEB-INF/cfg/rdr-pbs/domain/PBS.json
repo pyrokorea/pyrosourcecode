@@ -1,0 +1,848 @@
+﻿[
+  {
+    "name": "LMB_CODE",
+    "desc": "LMB코드",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "TEST_CODE",
+    "desc": "검사코드",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "SEX",
+    "desc": "성별",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "AGE_YEAR",
+    "desc": "연령",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "AGE_MONTH",
+    "desc": "월령",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "AGE_DAY",
+    "desc": "일령",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "HOSPITAL_CODE",
+    "desc": "병원코드",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "Default(Group_R)",
+    "desc": "소견그룹 R 결과 기본값 여부",
+    "type": "CATEGORICAL",
+    "list": [
+      "Y",
+      "N"
+    ]
+  },
+  {
+    "name": "Default(Group_W)",
+    "desc": "소견그룹 W 결과 기본값 여부",
+    "type": "CATEGORICAL",
+    "list": [
+      "Y",
+      "N"
+    ]
+  },
+  {
+    "name": "Default(Group_P)",
+    "desc": "소견그룹 P 결과 기본값 여부",
+    "type": "CATEGORICAL",
+    "list": [
+      "Y",
+      "N"
+    ]
+  },
+  {
+    "name": "02_Size",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normocytic",
+      "Microcytic",
+      "Macrocytic",
+      "Micro/Normocytic",
+      "Normo/Macrocytic"
+    ]
+  },
+  {
+    "name": "02_Size_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "03_Chromicity",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normochromic",
+      "Hypochromic",
+      "Hypo/Normochromic"
+    ]
+  },
+  {
+    "name": "03_Chromicity_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "04_Anisocytosis",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "04_Anisocytosis_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "05_Poikilocytosis",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "05_Poikilocytosis_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "06_Elliptocyte",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "06_Elliptocyte_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "07_burr cell",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "07_burr cell_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "08_target cell",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "08_target cell_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "09_spherocyte",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "09_spherocyte_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "10_schistocyte",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "10_schistocyte_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "11_Dimorphism",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive"
+    ]
+  },
+  {
+    "name": "11_Dimorphism_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "12_Rouleux",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive"
+    ]
+  },
+  {
+    "name": "12_Rouleux_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "13_Polychromasia",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "13_Polychromasia_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "14_Basophilic stippling",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "14_Basophilic stippling_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "15_Howell-Jolly body",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "15_Howell-Jolly body_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "16_Tear drop cell",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "16_Tear drop cell_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "17_Nucleated RBC",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "0"
+    ]
+  },
+  {
+    "name": "17_Nucleated RBC_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "21_Number",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Increased(+)",
+      "Increased(++)",
+      "Increased(+++)",
+      "Decreased(+)",
+      "Decreased(++)",
+      "Decreased(+++)"
+    ]
+  },
+  {
+    "name": "21_Number_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "22_Maturation",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Left shift",
+      "Abnormal"
+    ]
+  },
+  {
+    "name": "22_Maturation_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "23_Neutro-toxic changes",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive(+)",
+      "Positive(++)",
+      "Positive(+++)"
+    ]
+  },
+  {
+    "name": "23_Neutro-toxic changes_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "24_Neutro-Dohle body",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive"
+    ]
+  },
+  {
+    "name": "24_Neutro-Dohle body_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "25_Neutro-segmentation",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Hypo",
+      "Hyper"
+    ]
+  },
+  {
+    "name": "25_Neutro-segmentation_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "29_Number",
+    "desc": "P",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Increased(+)",
+      "Increased(++)",
+      "Increased(+++)",
+      "Decreased(+)",
+      "Decreased(++)",
+      "Decreased(+++)"
+    ]
+  },
+  {
+    "name": "29_Number_NUM",
+    "desc": "P",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "30_Size",
+    "desc": "P",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Occ. Large",
+      "Occ. Giant"
+    ]
+  },
+  {
+    "name": "30_Size_NUM",
+    "desc": "P",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "31_Clumping",
+    "desc": "P",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Occasional",
+      "Some",
+      "Marked"
+    ]
+  },
+  {
+    "name": "31_Clumping_NUM",
+    "desc": "P",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "18_Hemoglobin",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Anemia",
+      "Polycythemia",
+      "erythrocytosis"
+    ]
+  },
+  {
+    "name": "18_Hemoglobin_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "19_RBC Agglutination",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive"
+    ]
+  },
+  {
+    "name": "19_RBC Agglutination_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "41_Stomatocyte",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "41_Stomatocyte_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "42_Acanthocyte",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Positive",
+      "1+",
+      "2+",
+      "3+"
+    ]
+  },
+  {
+    "name": "42_Acanthocyte_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "43_Malaria",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Malaria",
+      "Filaria"
+    ]
+  },
+  {
+    "name": "43_Malaria_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "44_RBC others",
+    "desc": "R",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "Pappenheimer body",
+      "Heinz body"
+    ]
+  },
+  {
+    "name": "44_RBC others_NUM",
+    "desc": "R",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "51_Neutrophil",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Neutrophilia",
+      "Relative neutrophilia",
+      "Neutropenia"
+    ]
+  },
+  {
+    "name": "51_Neutrophil_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "53_Lymphocyte",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Lymphocytosis",
+      "Relative lymphocytosis"
+    ]
+  },
+  {
+    "name": "53_Lymphocyte_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "55_Monocyte",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Monocytosis",
+      "Relative monocytosis"
+    ]
+  },
+  {
+    "name": "55_Monocyte_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "56_Eosinophil",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Eosinophilia",
+      "Relative eosinophilia"
+    ]
+  },
+  {
+    "name": "56_Eosinophil_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "57_Basophil",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Normal",
+      "Basophilia"
+    ]
+  },
+  {
+    "name": "57_Basophil_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "61_Atypical lymphocyte",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "a few",
+      "some",
+      "many"
+    ]
+  },
+  {
+    "name": "61_Atypical lymphocyte_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "62_Abnormal lymphocyte",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "a few",
+      "some",
+      "many"
+    ]
+  },
+  {
+    "name": "62_Abnormal lymphocyte_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "63_Blast",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "a few",
+      "some",
+      "many"
+    ]
+  },
+  {
+    "name": "63_Blast_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "64_Abnormal cells",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "a few",
+      "some",
+      "many"
+    ]
+  },
+  {
+    "name": "64_Abnormal cells_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "65_WBC Others",
+    "desc": "W",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative"
+    ]
+  },
+  {
+    "name": "65_WBC Others_NUM",
+    "desc": "W",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "71_PLT Others",
+    "desc": "P",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "hypopigentation"
+    ]
+  },
+  {
+    "name": "71_PLT Others_NUM",
+    "desc": "P",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "91_Cell degeneration",
+    "desc": "G",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "weak",
+      "Positive"
+    ]
+  },
+  {
+    "name": "91_Cell degeneration_NUM",
+    "desc": "G",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "92_Partial clot",
+    "desc": "G",
+    "type": "CATEGORICAL",
+    "list": [
+      "Negative",
+      "weak",
+      "Positive"
+    ]
+  },
+  {
+    "name": "92_Partial clot_NUM",
+    "desc": "G",
+    "type": "CONTINUOUS",
+    "list": [
+    ]
+  },
+  {
+    "name": "rdr_class",
+    "desc": "결론",
+    "type": "TEXT",
+    "list": [
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:185]] CfgFile : rdr-ep.cfg 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:186]]  databaseType : mysql 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:187]]  sqliteFile : [ekp_biopsy_stomach.db, null] 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:188]]  databaseDriver : com.mysql.jdbc.Driver 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:189]]  dbURL : jdbc:mysql://localhost:3306/ 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:190]]  useUnicode : yes 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:191]]  characterEncoding : UTF-8 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:192]]  databaseName : [rdrkb_ep, smf_ep] 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:193]]  user : root 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:194]]  password : root 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:195]]  rootPath   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\ 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:196]]  domainPath : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-ep\domain\ 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:197]]  sqlPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\sql\ 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:198]]  logPath    : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-ep\log\ 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:199]]  arffFile   : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-ep\domain\cases\rdrkb_ep.arff 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:200]]  testArffFile : c:\Dev\eclipse_ws\rdr-general-web\src\main\webapp\WEB-INF\cfg\\rdr-ep\domain\cases\rdrkb_eptesting.arff 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:207]]  nullValues : [(na)] [(NA)] [(null)] [(NULL)]  
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:209]] rangeRatio : 10.0 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:210]] strictValidationSCRDR : N 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:211]] debug_inputCase : N 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:212]] debug_reqeust : Y 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:213]] debug_inference : N 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRConfig.print:214]] debug_sql : N 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_ep?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[MakeDAO.getDefaultConnection:90]] default connection created.... 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[MakeDAO.getDefaultConnection:91]] DB : jdbc:mysql://localhost:3306/rdrkb_ep?useUnicode=yes&characterEncoding=UTF-8&autoReconnect=true&useSSL=false 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[MysqlConnection.connect:30]] Opened database successfully, MysqlConnection 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRInterface.initializeDomain:175]] Engine initailize, domain : special_immunology 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRDBManager.getDomainDetails:1363]] domain : special_immunology, 특수면역학 전기영동검사, SCRDR 
+[INFO], 2019-10-30 15:34:34, [2019-10-30,15:34:34][I][[RDRDBManager.getCaseStructure:1420]] Case structure loading... 
+[INFO], 2019-10-30 15:34:35, [2019-10-30,15:34:35][I][[RDRDBManager.getCaseStructure:1462]] CaseStructure Load from DB, cnt : 33, dup cnt : 0 
+[INFO], 2019-10-30 15:34:35, [2019-10-30,15:34:35][I][[RDRDBManager.getConditionHashMap:1820]] Rule conditions loading... 
+[INFO], 2019-10-30 15:34:35, [2019-10-30,15:34:35][I][[RDRDBManager.getConclusionSet:1870]] Rule conclusions loading... 
+[INFO], 2019-10-30 15:34:35, [2019-10-30,15:34:35][I][[RDRDBManager.getRuleStructureSet:1564]] Rule loading... 
+[ERROR], 2019-10-30 15:34:54, [2019-10-30,15:34:54][E][[IncrementalLearnerApp.main:31]] learning failed 

@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 05, 2016, 4:52:01 PM
+    Author     : Hyunsuk (David) Chung
+*/
+
+.rdr-table-container{
+    background:#fcfcfd;
+    overflow-y:scroll;
+}
+
+.rdr-table{
+    width:100%;
+    background:white;
+    overflow:hidden;
+}
+
+.rdr-table td{
+    padding:5px;
+    border-bottom: 1pt solid rgba(34,36,38, .15);
+    border-right: 1pt solid rgba(34,36,38, .15);
+    vertical-align:text-top;
+}
+
+.rdr-table th{
+    padding:5px;
+    border: 1pt solid rgba(34,36,38, .15);
+    background:#f9fafb;
+    min-width:65px;
+}
+  
+.tr-not-selected {
+    background:white;
+}
+
+.tr-selected {
+    background:#e6e6e6;
+}

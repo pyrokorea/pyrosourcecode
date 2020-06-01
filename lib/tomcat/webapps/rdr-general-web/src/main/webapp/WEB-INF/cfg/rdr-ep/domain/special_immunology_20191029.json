@@ -1,0 +1,354 @@
+﻿[
+  {
+    "name": "LMB_CODE",
+    "desc": "LMB코드",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "TEST_CODE",
+    "desc": "검사코드",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "SPECIMEN_CODE",
+    "desc": "검체유형",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "HOSPITAL_CODE",
+    "desc": "병원코드",
+    "type": "TEXT",
+    "list": [
+    ]
+  },
+  {
+    "name": "TV_FLAG",
+    "desc": "Total Volume 유무",
+    "type": "CATEGORICAL",
+    "list": [
+      "Y",
+      "N"
+    ]
+  },
+  {
+    "name": "ALBUMIN",
+    "desc": "albumin 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "ALPHA 1",
+    "desc": "alpha1 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "ALPHA 2",
+    "desc": "alpha2 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "BETA",
+    "desc": "beta 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "GAMMA",
+    "desc": "gamma 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Total Protein",
+    "desc": "TotalProtein 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Liver",
+    "desc": "Liver 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Bone",
+    "desc": "Bone 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Macrohepatic",
+    "desc": "Macrohepatic 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Intestine",
+    "desc": "Intestine 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Total ALP",
+    "desc": "TotalALP 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "MM",
+    "desc": "MM 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "MB",
+    "desc": "MB 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "BB",
+    "desc": "BB 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Total CK",
+    "desc": "TotalCK 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "LD1",
+    "desc": "LD1 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "LD2",
+    "desc": "LD2 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "LD3",
+    "desc": "LD3 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "LD4",
+    "desc": "LD4 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "LD5",
+    "desc": "LD5 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Total LDH",
+    "desc": "TotalLDH 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "LD1/LD2",
+    "desc": "LD1/LD2 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "ALPHA",
+    "desc": "ALPHA 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Pre-Beta",
+    "desc": "Pre-Beta 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Beta",
+    "desc": "Beta 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Chylomicron",
+    "desc": "Chylomicon 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Cholesterol",
+    "desc": "Cholesterol 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "Triglyceride",
+    "desc": "Triglyceride 판정코드",
+    "type": "CATEGORICAL",
+    "list": [
+      "DE",
+      "NM",
+      "SI",
+      "IN"
+    ]
+  },
+  {
+    "name": "rdr_class",
+    "desc": "결론",
+    "type": "TEXT",
+    "list": [
+    ]
+  }
+]

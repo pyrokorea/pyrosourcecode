@@ -1,0 +1,102 @@
+@RELATION PBS
+
+@ATTRIBUTE "LMB_CODE" STRING 
+@ATTRIBUTE "TEST_CODE" STRING 
+@ATTRIBUTE "SEX" STRING 
+@ATTRIBUTE "AGE_YEAR" NUMERIC 
+@ATTRIBUTE "AGE_MONTH" NUMERIC 
+@ATTRIBUTE "AGE_DAY" NUMERIC 
+@ATTRIBUTE "HOSPITAL_CODE" STRING 
+@ATTRIBUTE "Default(Group_R)"  {"Y","N"}
+@ATTRIBUTE "Default(Group_W)"  {"Y","N"}
+@ATTRIBUTE "Default(Group_P)"  {"Y","N"}
+@ATTRIBUTE "02_Size"  {"Normocytic","Microcytic","Macrocytic","Micro/Normocytic","Normo/Macrocytic"}
+@ATTRIBUTE "02_Size_NUM" NUMERIC 
+@ATTRIBUTE "03_Chromicity"  {"Normochromic","Hypochromic","Hypo/Normochromic"}
+@ATTRIBUTE "03_Chromicity_NUM" NUMERIC 
+@ATTRIBUTE "04_Anisocytosis"  {"Negative","1+","2+","3+"}
+@ATTRIBUTE "04_Anisocytosis_NUM" NUMERIC 
+@ATTRIBUTE "05_Poikilocytosis"  {"Negative","1+","2+","3+"}
+@ATTRIBUTE "05_Poikilocytosis_NUM" NUMERIC 
+@ATTRIBUTE "06_Elliptocyte"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "06_Elliptocyte_NUM" NUMERIC 
+@ATTRIBUTE "07_burr cell"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "07_burr cell_NUM" NUMERIC 
+@ATTRIBUTE "08_target cell"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "08_target cell_NUM" NUMERIC 
+@ATTRIBUTE "09_spherocyte"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "09_spherocyte_NUM" NUMERIC 
+@ATTRIBUTE "10_schistocyte"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "10_schistocyte_NUM" NUMERIC 
+@ATTRIBUTE "11_Dimorphism"  {"Negative","Positive"}
+@ATTRIBUTE "11_Dimorphism_NUM" NUMERIC 
+@ATTRIBUTE "12_Rouleux"  {"Negative","Positive"}
+@ATTRIBUTE "12_Rouleux_NUM" NUMERIC 
+@ATTRIBUTE "13_Polychromasia"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "13_Polychromasia_NUM" NUMERIC 
+@ATTRIBUTE "14_Basophilic stippling"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "14_Basophilic stippling_NUM" NUMERIC 
+@ATTRIBUTE "15_Howell-Jolly body"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "15_Howell-Jolly body_NUM" NUMERIC 
+@ATTRIBUTE "16_Tear drop cell"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "16_Tear drop cell_NUM" NUMERIC 
+@ATTRIBUTE "17_Nucleated RBC"  {"0"}
+@ATTRIBUTE "17_Nucleated RBC_NUM" NUMERIC 
+@ATTRIBUTE "21_Number"  {"Normal","Increased(+)","Increased(++)","Increased(+++)","Decreased(+)","Decreased(++)","Decreased(+++)"}
+@ATTRIBUTE "21_Number_NUM" NUMERIC 
+@ATTRIBUTE "22_Maturation"  {"Normal","Left shift","Abnormal"}
+@ATTRIBUTE "22_Maturation_NUM" NUMERIC 
+@ATTRIBUTE "23_Neutro-toxic changes"  {"Negative","Positive(+)","Positive(++)","Positive(+++)"}
+@ATTRIBUTE "23_Neutro-toxic changes_NUM" NUMERIC 
+@ATTRIBUTE "24_Neutro-Dohle body"  {"Negative","Positive"}
+@ATTRIBUTE "24_Neutro-Dohle body_NUM" NUMERIC 
+@ATTRIBUTE "25_Neutro-segmentation"  {"Normal","Hypo","Hyper"}
+@ATTRIBUTE "25_Neutro-segmentation_NUM" NUMERIC 
+@ATTRIBUTE "29_Number"  {"Normal","Increased(+)","Increased(++)","Increased(+++)","Decreased(+)","Decreased(++)","Decreased(+++)"}
+@ATTRIBUTE "29_Number_NUM" NUMERIC 
+@ATTRIBUTE "30_Size"  {"Normal","Occ. Large","Occ. Giant"}
+@ATTRIBUTE "30_Size_NUM" NUMERIC 
+@ATTRIBUTE "31_Clumping"  {"Negative","Occasional","Some","Marked"}
+@ATTRIBUTE "31_Clumping_NUM" NUMERIC 
+@ATTRIBUTE "18_Hemoglobin"  {"Normal","Anemia","Polycythemia","erythrocytosis"}
+@ATTRIBUTE "18_Hemoglobin_NUM" NUMERIC 
+@ATTRIBUTE "19_RBC Agglutination"  {"Negative","Positive"}
+@ATTRIBUTE "19_RBC Agglutination_NUM" NUMERIC 
+@ATTRIBUTE "41_Stomatocyte"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "41_Stomatocyte_NUM" NUMERIC 
+@ATTRIBUTE "42_Acanthocyte"  {"Negative","Positive","1+","2+","3+"}
+@ATTRIBUTE "42_Acanthocyte_NUM" NUMERIC 
+@ATTRIBUTE "43_Malaria"  {"Negative","Malaria","Filaria"}
+@ATTRIBUTE "43_Malaria_NUM" NUMERIC 
+@ATTRIBUTE "44_RBC others"  {"Negative","Pappenheimer body","Heinz body"}
+@ATTRIBUTE "44_RBC others_NUM" NUMERIC 
+@ATTRIBUTE "51_Neutrophil"  {"Normal","Neutrophilia","Relative neutrophilia","Neutropenia"}
+@ATTRIBUTE "51_Neutrophil_NUM" NUMERIC 
+@ATTRIBUTE "53_Lymphocyte"  {"Normal","Lymphocytosis","Relative lymphocytosis"}
+@ATTRIBUTE "53_Lymphocyte_NUM" NUMERIC 
+@ATTRIBUTE "55_Monocyte"  {"Normal","Monocytosis","Relative monocytosis"}
+@ATTRIBUTE "55_Monocyte_NUM" NUMERIC 
+@ATTRIBUTE "56_Eosinophil"  {"Normal","Eosinophilia","Relative eosinophilia"}
+@ATTRIBUTE "56_Eosinophil_NUM" NUMERIC 
+@ATTRIBUTE "57_Basophil"  {"Normal","Basophilia"}
+@ATTRIBUTE "57_Basophil_NUM" NUMERIC 
+@ATTRIBUTE "61_Atypical lymphocyte"  {"Negative","a few","some","many"}
+@ATTRIBUTE "61_Atypical lymphocyte_NUM" NUMERIC 
+@ATTRIBUTE "62_Abnormal lymphocyte"  {"Negative","a few","some","many"}
+@ATTRIBUTE "62_Abnormal lymphocyte_NUM" NUMERIC 
+@ATTRIBUTE "63_Blast"  {"Negative","a few","some","many"}
+@ATTRIBUTE "63_Blast_NUM" NUMERIC 
+@ATTRIBUTE "64_Abnormal cells"  {"Negative","a few","some","many"}
+@ATTRIBUTE "64_Abnormal cells_NUM" NUMERIC 
+@ATTRIBUTE "65_WBC Others"  {"Negative"}
+@ATTRIBUTE "65_WBC Others_NUM" NUMERIC 
+@ATTRIBUTE "71_PLT Others"  {"Negative","hypopigentation"}
+@ATTRIBUTE "71_PLT Others_NUM" NUMERIC 
+@ATTRIBUTE "91_Cell degeneration"  {"Negative","weak","Positive"}
+@ATTRIBUTE "91_Cell degeneration_NUM" NUMERIC 
+@ATTRIBUTE "92_Partial clot"  {"Negative","weak","Positive"}
+@ATTRIBUTE "92_Partial clot_NUM" NUMERIC 
+@ATTRIBUTE "rdr_class" STRING 
+
+@DATA
+"0000","11052",?,"20",?,?,?,"Y",?,?,"Normocytic",?,"Normochromic",?,"Negative",?,"Negative",?,?,?,?,?,?,?,?,?,?,?,"Negative",?,"Negative",?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,"Normal",?,"Negative",?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,"PBSR000"
