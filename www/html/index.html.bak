@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>PyroKorea - Ripple Down Rules</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="scribbler-global.css">
+      <link rel="stylesheet" href="scribbler-landing.css">
+      <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <nav>
+      <div></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
+        <!--li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i> Github</a></li-->
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">Pyro Korea</h1>
+      <p class="hero__description">Business Rule Management, Intelligent Dialogue Service, Blockchain with RDR</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <!-- Place your demo code here -->
+        <code class="shell-session demo">pyrokorea ~ $ </code>
+      </pre>
+    </div>
+    <!--div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">Installation</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="mac">mac</li>
+            <li class="tab" data-tab="linux">linux</li>
+            <li class="tab" data-tab="win">win</li>
+          </ul>
+          <pre class="nohighlight code">
+            <code class="tab__pane active mac">$  brew install scribbler</code>
+            <code class="tab__pane linux">$  apt-get install scribbler</code>
+            <code class="tab__pane win">$  gem install scribbler</code>
+          </pre>
+        </div>
+      </div-->
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">RDR Engine</h3>
+          <p>SCRDR/MCRDR, Nnowledge Acquisition, Cornerstone Case, Difference List, Case-Based Learning, Knowledge-Based Learning, Domain Service.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">RDR Rule Builder</h3>
+          <p>Induct RDR - Data - Machine Learning - Rlue Structure, incremental Learning, Knowledge Vased Learning.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">RDR Rule Studio</h3>
+          <p>RDR - Rule Tree, Talbe, Text, Rule Tree Information Report(Image, Text).</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Dialogue RDR Engine</h3>
+          <p>Standard RDR (MCRDR) Engine - Dialogue, Validateion & Verification.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">CLI</h3>
+          <p>형태소 분석기 연동, 구문 분석, 의미 분석 등 자연어 처리, CLI 운영화면.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">IDS Application UI</h3>
+          <p>IDS(Interlligent Dialogue System) 관리용 화면.</p>
+        </div>
+      </div>
+      <div class="keybinding">
+        <ul class="keybinding__detail">
+          <h3 class="keybinding__title">product</h3>
+          <li>검진시스템</li>
+          <li>Health Care</li>
+          <li>금융분야 업무규칙관리</li>
+          <li>네비게이션 음성대화 <!--span class="keybinding__label">Cmd+Z</span--></li>
+        </ul>
+        <ul class="keybinding__detail">
+          <h3 class="keybinding__title">module</h3>
+          <li><!--span class="keybinding__label">Ctrl+A</span--> RDR Engine</li>
+          <li><!--span class="keybinding__label">Ctrl+I</span--> Rule Package</li>
+          <li><!--span class="keybinding__label">Ctrl+V</span--> Dialogue RDR</li>
+          <li><!--span class="keybinding__label">Ctrl+T</span--> 능형 대화 시스템 Pakage</li>
+        </ul>
+      </div>
+      <div class="callout">
+        <p>Read our documentation for advanced keybindings and customization</p>
+        <a href="doc.html" class="button--primary">Documentation</a>
+      </div>
+    </div>
+    <!--div class="changelog">
+      <div class="wrapper">
+        <h3 class="section__title">Changelog</h3>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.7</h4>
+            <small class="changelog__date">10/12/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Improving the writing workflow with better key bindings</li>
+              <li>Design updates</li>
+              <li>SSL Verification for web hooks</li>
+              <li>Render Emoji</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.6</h4>
+            <small class="changelog__date">7/30/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Adding Unicode support</li>
+              <li>Basic text highlighting</li>
+              <li>Fresh Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.5</h4>
+            <small class="changelog__date">5/10/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Save default md file in new folders</li>
+              <li>Ability to quick search on existing notes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__callout">
+          <a href="#" class="button--secondary">Checkout Full Log</a>
+        </div>
+      </div>
+    </div-->
+    <footer class="footer">pyrokorea</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
+</html>
